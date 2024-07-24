@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Capstone Project: Web Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This application is an online store for a female-targeted sporting equipment store. It aims to bridge the gap between the more "macho" and masculine stereotypical aesthetics commonly seen in the field of sports, and the more graceful and hyper-feminine style that a lot of women seek after - allowing them to make the game that they love their own, expressing their femininity throughout.
 
-In the project directory, you can run:
+The app itself offers a range of sporting equipment with a more feminine aesthetic, from a variety of international brands, all curated into one location for the convinience of its users. It allows users to log in, and sort through this variety of products in order to choose which ones best suit them.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Cart Features: Users can add whichever products they choose to their cart, simply by clicking the "add to cart" button. Once added to the cart, the price of an item is immediately added to the total price off all items in the cart, allowing the user to keep track of their total. The user also is given the option to remove an item from the cart, or clear the cart entirely. From the Cart Page, the user can go to the checkout page, and choose their preferred method of shipment - with a helpful "Help" feature provided in order to give extra information on each item in the cart
+- Store features: Users can sort through the multiple products in the store, and choose between the various product option provided by the store. They are able to see the product name, price, and a preview of what the product looks like. When theyve made their decision, they can press the "Add to cart" button, and that item is moved straight to the users cart
+- Account features: Upon reaching the Landing page, the user is given the option to either log in, or register for an account. Should the user log in, they need to enter their account user name, before they will immediately be taken to the landing page, where a welcome message will be displayed on the nav-bar with their username, as well as the option to logout. However if they need to register, they will be recquired to enter their name, surname, username, email and password, before being taken to the landing page, where a welcome message will be displayed on the nav-bar with their username, as well as the option to logout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
