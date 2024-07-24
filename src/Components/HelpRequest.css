@@ -1,0 +1,38 @@
+.help-request {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.help-request button {
+  background-color: #669966;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.help-request button:hover {
+  background-color: #446144;
+}
+
+.help-info {
+  margin-top: 20px;
+}
+
+.help-info h2 {
+  font-size: 2rem;
+  color: #446144;
+}
+
+.help-info p {
+  font-size: 1em;
+  color: #333;
+}

@@ -1,0 +1,50 @@
+/* Assuming similar structure and layout as registrationForm.css */
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem; /* Increased padding for consistency */
+  background: rgba(255, 255, 255, 0.9); /* Similar to product cards */
+  border-radius: 10px; /* Matches product cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent with product cards */
+  text-align: center; /* Center-align content */
+}
+
+h2 {
+  font-size: 3rem; /* Consistent with store title */
+  margin-bottom: 1rem;
+  color: #446144; /* Matches store title color */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #446144; /* Matches text color */
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem; /* Consistent padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #669966; /* Matches add-to-cart button */
+  border: none;
+  color: white;
+  border-radius: 5px; /* Matches add-to-cart button */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #446144; /* Matches add-to-cart button hover */
+}

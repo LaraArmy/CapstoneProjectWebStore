@@ -1,0 +1,31 @@
+.shipment-selector {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.shipment-selector h2 {
+  font-size: 2rem;
+  color: #446144;
+  margin-bottom: 1rem;
+}
+
+.shipment-selector label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.shipment-selector input[type="radio"] {
+  margin-right: 10px;
+}
+
+.shipment-selector input[type="radio"]:checked + span {
+  color: #446144;
+}
